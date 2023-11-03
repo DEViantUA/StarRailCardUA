@@ -68,9 +68,9 @@ async def main():
         return None
     
     links = [
-        ("https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/ru/avatar.json", "avatar"),
-        ("https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/ru/weapons.json", "weapons"),
-        ("https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/ru/relic_sets.json", "relict_sets")
+        (f"https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/{lang}/avatar.json", "avatar"),
+        (f"https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/{lang}/weapons.json", "weapons"),
+        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/relic_sets.json", "relict_sets")
     ]
     
     tasks = [DataUpdater(source_url, target_filename) for source_url, target_filename in links]
