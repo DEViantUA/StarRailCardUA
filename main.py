@@ -68,8 +68,8 @@ async def main():
         return None
     
     links = [
-        (f"https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/{lang}/avatar.json", "avatar"),
-        (f"https://raw.githubusercontent.com/FortOfFans/HSRMaps/master/maps/{lang}/weapons.json", "weapons"),
+        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/characters.json", "avatar")
+        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/weapons.json", "weapons"),
         (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/relic_sets.json", "relict_sets")
     ]
     
