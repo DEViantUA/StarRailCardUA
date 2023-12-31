@@ -68,11 +68,11 @@ async def main():
         return None
     
     links = [
-        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/characters.json", "avatar")
-        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/weapons.json", "weapons"),
+        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/characters.json", "avatar"),
+        (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/light_cones.json", "weapons"),
         (f"https://raw.githubusercontent.com/Mar-7th/StarRailRes/master/index_new/{lang}/relic_sets.json", "relict_sets")
     ]
-    
+  
     tasks = [DataUpdater(source_url, target_filename) for source_url, target_filename in links]
 
     await asyncio.gather(*[task.start() for task in tasks])
