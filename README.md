@@ -30,6 +30,7 @@ Simply make the corrections in this repository and submit them for merging.
 ### Історія обновлення/Update history:
 | Data    |  Version Games   | Author    |
 |-------------|---------|---------|
+|  `28.03.2024`    |     2.1  |  [DeviantUa](https://github.com/DEViantUA)  |
 |  `07.02.2024`    |     2.0  |  [DeviantUa](https://github.com/DEViantUA)  |
 |  `16.11.2023`    |     1.6  |  [DeviantUa](https://github.com/DEViantUA)  |
 |  `03.11.2023`    |     1.5  |  [DeviantUa](https://github.com/DEViantUA)  |
